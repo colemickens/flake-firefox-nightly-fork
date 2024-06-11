@@ -2,7 +2,8 @@
   description = "firefox-nightly";
 
   inputs = {
-    nixpkgs = { url = "github:nixos/nixpkgs/nixos-unstable"; };
+    # nixpkgs = { url = "github:nixos/nixpkgs/nixos-unstable"; };
+    nixpkgs = { url = "github:colemickens/nixpkgs/cmpkgs"; };
     lib-aggregate = { url = "github:nix-community/lib-aggregate"; };
     cachix = { url = "github:nixos/nixpkgs/nixos-20.09"; };
     mozilla = { url = "github:mozilla/nixpkgs-mozilla"; flake = false; };
